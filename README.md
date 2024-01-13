@@ -4,7 +4,7 @@
 GTK (GIMP Toolkit) is a library for creating graphical user interfaces (GUIs). It provides a set of tools and widgets that developers can use to build interactive and visually appealing applications. GTK is widely used in the open-source software community and is the primary toolkit for the GNOME desktop environment. Here are some key aspects of GTK:
 
 1. **Cross-Platform:**
-   - GTK is designed to be cross-platform, allowing developers to write applications that run on different operating systems, including Linux, macOS, and Windows.
+   - **GTK** is designed to be **cross-platform**, allowing developers to write applications that run on different operating systems, including **Linux, macOS, and Windows**.
 
 2. **Widgets:**
    - GTK provides a wide range of user interface elements, known as widgets. These include buttons, text fields, labels, menus, trees, and many more. Developers can use these widgets to create the visual components of their applications.

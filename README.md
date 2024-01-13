@@ -31,7 +31,7 @@ Overall, GTK provides a powerful and flexible framework for building desktop app
 
 # Installing gtk4 or gtk+ successfully in 2024 !
 How to install successfuly `gtk4` on Linux ?
-# How to install packages or librairy for Linux from command line ?
+# How to install packages or library for Linux from command line ?
 ```bash
 # use this...
 sudo apt install gtk-4*

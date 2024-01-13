@@ -189,15 +189,16 @@ mv ~/Downloads/gobject-introspection-1.79.1 ~/Downloads/gobject
 # copying
 sudo mv ~/Downloads/gobject/ /opt/gobject 
 # goto /opt/gobject 
-cd /opt/gobject 
+cd /opt/gobject
+# install this dependency below
+sudo apt install flex bison
 ```
 After that, execute :
 ```bash
 # build gobject for our computer for progamming using gobject
-mkdir build &&
-cd    build &&
-
-meson setup --prefix=/usr --buildtype=release .. &&
+mkdir build
+cd    build
+meson setup --prefix=/usr --buildtype=release ..
 ninja
 ninja install
 ```

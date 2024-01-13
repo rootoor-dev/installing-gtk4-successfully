@@ -1,5 +1,15 @@
 # Installing gtk4 or gtk+ successfully in 2024 !
 How to install successfuly `gtk4` on Linux ?
+# How to install packages or librairy for Linux from command line ?
+```bash
+# use this...
+sudo apt install gtk-4
+# ...or use that or both if you want
+sudo apt install libgtk-4
+```
+
+**I've prefered using the source code to install gtk4 on my computer running debian 12 OS.**
+
 # How to install packages or librairy for Linux from scratch using source ?
 Almost all the packages to be installed such as `gtk4` are not binaries but in source form.
 So, it is important to know how to install them given their source code.

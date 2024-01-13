@@ -372,7 +372,7 @@ main (int argc, char **argv) {
   return stat;
 }
 ```
-Aave it under `testgtk4.c` name and compile it:
+Save it under `testgtk4.c` name and compile it:
 
 ```bash
 # compilation

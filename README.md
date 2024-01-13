@@ -98,7 +98,7 @@ Overall, GTK provides a powerful and flexible framework for building desktop app
 
 # Build from Source (for Debian)
 
-## Requirements / Prerequisies 
+## Requirements / Prerequisites 
 You need the development package for `gstreamer-player-1.0`. On **Debian** it is provided by `libgstreamer-plugins-bad1.0-dev`
 
 ```bash

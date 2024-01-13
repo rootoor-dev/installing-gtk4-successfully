@@ -1,3 +1,34 @@
+# What is gtk+ or gtk4 ?
+
+
+GTK (GIMP Toolkit) is a library for creating graphical user interfaces (GUIs). It provides a set of tools and widgets that developers can use to build interactive and visually appealing applications. GTK is widely used in the open-source software community and is the primary toolkit for the GNOME desktop environment. Here are some key aspects of GTK:
+
+1. **Cross-Platform:**
+   - GTK is designed to be cross-platform, allowing developers to write applications that run on different operating systems, including Linux, macOS, and Windows.
+
+2. **Widgets:**
+   - GTK provides a wide range of user interface elements, known as widgets. These include buttons, text fields, labels, menus, trees, and many more. Developers can use these widgets to create the visual components of their applications.
+
+3. **Event-Driven Programming:**
+   - GTK follows an event-driven programming model. Developers define callbacks or handlers for specific events (such as button clicks or key presses), and GTK calls these functions when the corresponding events occur.
+
+4. **Layout Managers:**
+   - GTK includes layout managers that help developers organize and position widgets within a window. This allows for the creation of flexible and responsive user interfaces.
+
+5. **Theming:**
+   - GTK supports theming, allowing developers to customize the appearance of their applications. Themes control the colors, fonts, and overall look and feel of GTK-based applications.
+
+6. **Internationalization (i18n) and Accessibility:**
+   - GTK includes features for internationalization, making it easier to translate applications into different languages. It also supports accessibility features to ensure that applications are usable by people with disabilities.
+
+7. **Integration with Other Libraries:**
+   - GTK can be used in conjunction with other libraries and tools. For example, it works well with the GLib library, and applications often use the GObject type system for object-oriented programming.
+
+8. **Open Source and Community-Driven:**
+   - GTK is open source, and its development is community-driven. This means that developers from around the world contribute to its improvement, ensuring continuous updates and enhancements.
+
+Overall, GTK provides a powerful and flexible framework for building desktop applications with rich graphical user interfaces, making it a popular choice for software developers working in the Linux and open-source ecosystems.
+
 # Installing gtk4 or gtk+ successfully in 2024 !
 How to install successfuly `gtk4` on Linux ?
 # How to install packages or librairy for Linux from command line ?
@@ -76,37 +107,7 @@ So, it is important to know how to install them given their source code.
 
 Remember, the specific steps might vary depending on the software and your operating system. Always refer to the documentation provided with the source code for accurate and detailed instructions. Additionally, installing packages from source can introduce complexities, and it's usually recommended to use your system's package manager whenever possible to manage software installations and updates.
 
-# Installing gtk4 (2024 current version : 4.9.4)
-
-GTK (GIMP Toolkit) is a library for creating graphical user interfaces (GUIs). It provides a set of tools and widgets that developers can use to build interactive and visually appealing applications. GTK is widely used in the open-source software community and is the primary toolkit for the GNOME desktop environment. Here are some key aspects of GTK:
-
-1. **Cross-Platform:**
-   - GTK is designed to be cross-platform, allowing developers to write applications that run on different operating systems, including Linux, macOS, and Windows.
-
-2. **Widgets:**
-   - GTK provides a wide range of user interface elements, known as widgets. These include buttons, text fields, labels, menus, trees, and many more. Developers can use these widgets to create the visual components of their applications.
-
-3. **Event-Driven Programming:**
-   - GTK follows an event-driven programming model. Developers define callbacks or handlers for specific events (such as button clicks or key presses), and GTK calls these functions when the corresponding events occur.
-
-4. **Layout Managers:**
-   - GTK includes layout managers that help developers organize and position widgets within a window. This allows for the creation of flexible and responsive user interfaces.
-
-5. **Theming:**
-   - GTK supports theming, allowing developers to customize the appearance of their applications. Themes control the colors, fonts, and overall look and feel of GTK-based applications.
-
-6. **Internationalization (i18n) and Accessibility:**
-   - GTK includes features for internationalization, making it easier to translate applications into different languages. It also supports accessibility features to ensure that applications are usable by people with disabilities.
-
-7. **Integration with Other Libraries:**
-   - GTK can be used in conjunction with other libraries and tools. For example, it works well with the GLib library, and applications often use the GObject type system for object-oriented programming.
-
-8. **Open Source and Community-Driven:**
-   - GTK is open source, and its development is community-driven. This means that developers from around the world contribute to its improvement, ensuring continuous updates and enhancements.
-
-Overall, GTK provides a powerful and flexible framework for building desktop applications with rich graphical user interfaces, making it a popular choice for software developers working in the Linux and open-source ecosystems.
-
-# Build from Source (for Debian)
+# Installing gtk4 (2024 current version : 4.9.4) or Build it from Source (for Debian)
 
 ## Requirements / Prerequisites 
 You need the development package for `gstreamer-player-1.0`. On **Debian** it is provided by `libgstreamer-plugins-bad1.0-dev`

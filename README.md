@@ -383,6 +383,32 @@ gcc testgtk4.c $(pkg-config --cflags --libs gtk4) -o program
 ```
 You must see a window. if yes, it works!
 
+# Improvements of the compiling
+Paste the function below into your `.bashrc` or `.zshrc` file. 
+```bash
+compile_gtk() {
+    if [ "$#" -lt 1 ]; then
+        echo "Usage: compile_gtk <source_file> [output_name]"
+        return 1
+    fi
+    
+    local source_file="$1"
+    local output_name="${2:-${source_file%.*}}"
+    
+    gcc "$source_file" -o "$output_name" $(pkg-config --cflags --libs gtk4)
+}
+```
+Now, instead going on remembering to put `$(pkg-config --cflags --libs gtk4)` in the command before compiling your program with gtk4,
+you have to write:
+
+```bash
+# Without specifying output name (default output name will still be the given name to your program source)
+compile_gtk testgtk4.c   # --> this will compile "testgtk4.c" into an executable named "testgtk4"
+
+# Specify output name
+compile_gtk testgtk4.c myprogram   # --> this will compile "testgtk4.c" into an executable named "myprogram"
+```
+
 # Sources :
 
 - [learning how to install libraries for Linux from scratch using source](https://www.linuxfromscratch.org/)

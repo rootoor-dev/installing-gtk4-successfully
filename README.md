@@ -2,9 +2,9 @@
 How to install successfuly `gtk4` on Linux ?
 # How to install packages or librairy for Linux from scratch using source ?
 Almost all the packages to be installed such as `gtk4` are not binaries but in source form.
-So, it is important to how to install them given their source code.
+So, it is important to know how to install them given their source code.
 
-Installing a package from source typically involves the following steps:
+## Installing a package from source typically involves the following steps:
 
 1. **Download the Source Code:**
    - Visit the official website of the software or library you want to install.

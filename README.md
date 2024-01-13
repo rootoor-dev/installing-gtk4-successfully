@@ -200,7 +200,7 @@ mkdir build
 cd    build
 meson setup --prefix=/usr --buildtype=release ..
 ninja
-ninja install
+sudo ninja install
 ```
 
 ## Download gtk4 sources on official website.

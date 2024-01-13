@@ -1,4 +1,4 @@
-# Installing-gtk4-successfully in 2024 !
+# Installing gtk4 or gtk+ successfully in 2024 !
 How to install successfuly `gtk4` on Linux ?
 # How to install packages or librairy for Linux from scratch using source ?
 Almost all the packages to be installed such as `gtk4` are not binaries but in source form.
@@ -372,7 +372,7 @@ gcc testgtk4.c $(pkg-config --cflags --libs gtk4) -o program
 ```
 You must see a window. if yes, it works!
 
-Sources :
+# Sources :
 
 - [learning how to install libraries for Linux from scratch using source](https://www.linuxfromscratch.org/)
 - [GStreamer Installation on Linux](https://gstreamer.freedesktop.org/documentation/installing/on-linux.html?gi-language=c)
